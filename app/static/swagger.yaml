@@ -3,9 +3,9 @@ info:
   title: "Library API"
   description: "API to manage a Library System"
   version: "1.0.0"
-host: "127.0.0.1:500" #working on local host
+host: "https://my-cool-library-qlbe.onrender.com" #working on deployed url
 schemes:
-  - "http"
+  - "https"
 consumes:
   - "application/json"
 produces:
