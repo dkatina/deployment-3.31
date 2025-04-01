@@ -5,7 +5,7 @@ from app.models import db
 
 app = create_app('ProductionConfig')
 
-app.route("/")
+@app.route("/")
 def api_redirect():
     return redirect("/api/docs")
 
